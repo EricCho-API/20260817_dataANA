@@ -55,6 +55,7 @@ if st.button("顯示圖表"):
         ax.set_title("AAAA")
         ax.set_xlabel('month')
         ax.set_ylabel('$')
+        plt.xticks(rotation=45)
         st.pyplot(fig)
 
     #長條圖
@@ -87,6 +88,7 @@ if st.button("顯示圖表"):
         ax.set_title("order_amount")
         ax.set_xlabel('order_amount')
         ax.set_ylabel('$')
+        
         st.pyplot(fig)
 
 
